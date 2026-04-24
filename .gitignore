@@ -1,0 +1,12 @@
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+code
+attached_test
+scope_test
+*.o
+*.a
+*.so
+*.dylib
+.DS_Store
