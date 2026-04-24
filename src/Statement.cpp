@@ -45,7 +45,7 @@ InputStatement::InputStatement(std::string source, std::string varName)
 void InputStatement::execute(VarState& state, Program& program) const {
   int value;
   while (true) {
-    std::cout << " ? ";
+    std::cout << " ? " << std::flush;
     std::string line;
     if (!std::getline(std::cin, line)) {
       throw BasicError("INPUT ERROR");
